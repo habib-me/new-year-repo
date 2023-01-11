@@ -1,0 +1,88 @@
+
+.bg-image{
+    
+    width: 100vw;
+    height: 809px;
+    background:url("images/banner/banner2.png");
+    
+   
+}
+.overlay{
+   text-align: right;
+   padding: 5px 85px;
+  }
+  .banner-title{
+    margin-top: 300px;
+    padding: 25px;
+  }
+  .banner-sub-title{
+    padding: 25px;
+  }
+
+  .btn-primary{
+    width: 120px;
+    height: 35px;
+    background: #FD6E0A;
+    border-radius: 5px;
+  }
+
+
+  /* main body */
+  .body-container{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100vw;
+    height: 800px;
+  }
+ .main-body-image{
+  background: url("images/person.png") no-repeat;
+ }
+
+.body-des{
+color: #FD6E0A;
+justify-content: end;
+margin-top: 350px;
+margin-left: 850px;
+}
+
+/* my plans */
+.plans-title{
+  text-align: center;
+}
+.plans-container{
+  display: flex;
+  gap: 300px;
+  margin-left: 20px;
+}
+/* positive */
+.positive-bg{
+  width: 100vw;
+
+  background: url('images/watch.png') ,url('/images/gradient2.png');
+  background-repeat: no-repeat;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+
+}
+.positive-text{
+  font-size: 20px;
+  padding: 60px;
+  color:#fff;
+}
+/* future */
+.future{
+  display: flex;
+  gap: 50px;
+  background:#1a1512;
+  padding: 0px 50px;
+  color: #fff;
+}
+.future a img {
+  padding: 10px;
+}
+.sub-form input{
+ height: 25px;
+ margin-bottom: 20px;
+}
